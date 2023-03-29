@@ -3,11 +3,13 @@
 	"use strict";
 
 	// Page loading animation
-	$(window).on('load', function() {
-
-        $('#js-preloader').addClass('loaded');
-
-    });
+	$(window).on('load', function () {
+		if ($('#js-preloader').length) {
+		  $('#js-preloader').delay(100).fadeOut('slow', function () {
+			$(this).remove();
+		  });
+		}
+	  });
 
 	// WOW JS
 	$(window).on ('load', function (){
