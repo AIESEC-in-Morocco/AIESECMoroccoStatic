@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="assets/css/templatemo-woox-travel.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
@@ -55,11 +56,11 @@
 
   <body>
     <!-- ***** Preloader Start ***** -->
-    <div id="js-preloader" class="js-preloader">
+    <!-- <div id="js-preloader" class="js-preloader">
       <div class="preloader-inner">
         <img id="videoElm" src="assets/images/load.gif" alt="loader" />
       </div>
-    </div>
+    </div> -->
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
@@ -203,18 +204,18 @@
                 >
                   <fieldset>
                     <label for="chooseGuests" class="form-label">Subject</label>
-                    <input
-                      type="textarea"
-                      name="Message"
-                      class=""
-                      placeholder=""
-                      autocomplete="on"
-                      required
-                      rows="4"
-                      cols="50"
-                      style="height: 200px"
+                    <textarea
+                      form="usrform"
+                      style="
+                        height: 200px;
+                        width: 100%;
+                        border-radius: 10px;
+                        border: 1px solid #e0e0e0;
+                        background-color: transparent;
+                      "
                       id="content"
-                    />
+                      required
+                    ></textarea>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
@@ -274,10 +275,20 @@
           chat_id: 513915705,
           text,
         });
+
         $.post(url, {
           chat_id: 1641666435,
           text,
         });
+
+        $("#snackbar").addClass("show");
+        setTimeout(function () {
+          $("#snackbar").removeClass("show");
+        }, 3000);
+
+        $("#name").val("");
+        $("#email").val("");
+        $("#content").val("");
       });
 
       $(".option").click(function () {
