@@ -3658,7 +3658,7 @@ section.our-events {
   padding: 30px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
-  min-height: 400px;
+  min-height: 100%;
 }
 .lifeinfo .info-item h4 {
   color: #331875;
@@ -3989,28 +3989,28 @@ body {
 /**Conent of product pages**/
 
 .gta-about {
-  background-image: url(../images/gtaP.png);
+  background-image: url("../images/gtaP.png");
 }
 .gta-about .blur-bg {
-  background-image: url(../images/gtaP.png) !important;
+  background-image: url("../images/gtaP.png") !important;
 }
 .gte-about {
-  background-image: url(../images/gte\\(2\).png);
+  background-image: url("../images/gte\\(2\).png");
 }
 .gte-about .blur-bg {
-  background-image: url(../images/gte\\(2\).png) !important;
+  background-image: url("../images/gte\\(2\).png") !important;
 }
 .gv-about {
-  background-image: url(../images/GVP.png);
+  background-image: url("../images/GVP.png");
 }
 .gv-about .blur-bg {
-  background-image: url(../images/GVP.png) !important;
+  background-image: url("../images/GVP.png") !important;
 }
 .mxp-about {
-  background-image: url(../images/MXP.png);
+  background-image: url("../images/MXP.png");
 }
 .mxp-about .blur-bg {
-  background-image: url(../images/MXP.png) !important;
+  background-image: url("../images/MXP.png") !important;
 }
 
 /*Drop down in the menu*/
