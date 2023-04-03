@@ -2101,16 +2101,19 @@ Deals Page Style
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   overflow: hidden;
+  height: 100%;
 }
 .amazing-deals .item .image img {
-  height: fit-content;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .amazing-deals .item {
   background-color: #f7f7f7;
   border-radius: 23px;
   padding-right: 30px;
-  margin-bottom: 30px;
+  height: 100%;
 }
 
 .amazing-deals .item span.info {
