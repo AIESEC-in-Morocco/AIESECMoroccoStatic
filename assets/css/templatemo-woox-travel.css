@@ -842,6 +842,13 @@ Banner Style
   font-weight: 700;
   line-height: 28px;
 }
+#section-1 .more-info h2 {
+  text-align: center; /* left */
+  font-size: 60px;
+  color: #52565e;
+  font-weight: 700;
+  line-height: 28px;
+}
 #section-1 .more-info h4 span {
   font-size: 15px;
   color: #afafaf;
@@ -906,11 +913,11 @@ Banner Style
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url("../images/MC/_MG_5869.jpg") no-repeat center center;
+  background: url("../images/Home2.jpg") no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url("../images/Culture/sunset-gc257ba6ed_1920.jpg") no-repeat
+  background: url("../images/Home3.jpg") no-repeat
     center center;
   background-size: cover;
   filter: grayscale(20%);
