@@ -3072,8 +3072,8 @@ body {
 }
 .tl-content h5 {
   font-family: "Popins", sans-serif;
-
-  color: #dd0426;
+  font-weight: bold;
+  color: #fff;
 }
 .tl-content p {
   color: #ecf1f5;
