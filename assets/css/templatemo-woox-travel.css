@@ -952,24 +952,24 @@ Banner Style
   transition: 0.3s;
 }
 #section-1 .content-slider .slider #top-banner-1 {
-  background: url("../images/MC/IMG_8851.jpg") no-repeat center center;
+  background: url("../images/headers/1.jpg") no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url("../images/Home2.jpg") no-repeat center center;
+  background: url("../images/headers/2.jpg") no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url("../images/Home3.jpg") no-repeat
+  background: url("../images/headers/3.jpg") no-repeat
     center center;
   background-size: cover;
   filter: grayscale(20%);
   /* filter: url('#purple-sepia'); */
 }
-#section-1 .content-slider .slider #top-banner-4 {
+/* #section-1 .content-slider .slider #top-banner-4 {
   background: url("../images/image.png") no-repeat center center;
   background-size: cover;
-}
+} */
 #section-1 .content-slider nav {
   position: absolute;
   bottom: 30px;
@@ -3403,11 +3403,13 @@ section.our-events {
 /******************Values Icons Css******************/
 
 .valueIcon {
-  display: -webkit-inline-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .valueIcon img {
-  max-width: 30px;
-  max-height: 30px;
+  max-width: 40px;
+  margin-right: 8px;
 }
 
 /**************FAQS****************/
