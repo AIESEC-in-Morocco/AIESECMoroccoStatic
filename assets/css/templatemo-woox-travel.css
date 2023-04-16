@@ -3578,9 +3578,9 @@ section.our-events {
 
 .Moroccoflag {
   float: left;
-  width: 200px;
-  border-radius: 25px;
+  width: 40%;
   margin-right: 9px;
+  border-radius: 10px;
 }
 
 .moroccan-areas h2,
