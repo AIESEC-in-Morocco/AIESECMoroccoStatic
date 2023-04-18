@@ -1,3 +1,7 @@
+function okUlyi() {
+  dataLayer.push(arguments);
+}
+
 !(function (t, e, n, c, i, r, a) {
   (t[n] =
     t[n] ||
@@ -7,6 +11,10 @@
     ((r = e.createElement(c)).async = 1),
     (r.src = "https://www.clarity.ms/tag/gpiripybkc"),
     (a = e.getElementsByTagName(c)[0]).parentNode.insertBefore(r, a);
+
+  (window.dataLayer = window.dataLayer || []),
+    okUlyi("js", new Date()),
+    okUlyi("config", "G-TRQ8W3PT4C");
 })(window, document, "clarity", "script");
 
 (function ($) {
