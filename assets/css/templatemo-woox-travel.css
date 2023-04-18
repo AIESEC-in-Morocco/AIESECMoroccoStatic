@@ -2171,108 +2171,18 @@ Deals Page Style
   color: #331875;
 }
 
-/* .amazing-deals {
-  margin-top: 120px;
-  
-} */
-
-/* .amazing-deals .item .image {
-  border-top-left-radius: 23px;
-  border-bottom-left-radius: 23px;
-  overflow: hidden;
-  height: 100%;
-} */
-/* .amazing-deals .item .image img {
-  height: 100%;
-  object-fit: cover;
-
-} */
-
-/* .amazing-deals .item {
-  background-color: #f7f7f7;
-  border-radius: 23px;
-  padding-right: 30px;
-  height: 100%;
-} */
-
-/* .amazing-deals .item p {
-  padding-top: 25px;
-  margin-top: 10px;
-  border-top: 1px solid #ddd;
-  margin-bottom: 30px;
-  min-height:28rem;
-} */
-
-/* .amazing-deals {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.amazing-deals .item {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ddd;
-  width: 100%;
-  max-width: 30%;
-  margin-bottom: 30px;
-}
-
-.amazing-deals .item img {
-  width: 100%;
-  height: auto;
-}
-
-.amazing-deals .item p {
-  padding-top: 25px;
-  margin-top: auto; push the paragraph to the bottom
-  border-top: 1px solid #ddd;
-  margin-bottom: 0; remove margin bottom
-  height: 100%; allow the height to be set by the container
-  display: flex;
-  flex-direction: column;
-}
-
-.amazing-deals .item p span {
-  flex-grow: 1; allow the content to expand vertically
-}
-
-.amazing-deals .item span.info {
-  color: #331875;
-  font-size: 15px;
-  margin-bottom: 20px;
-  display: block;
-}
-
-.amazing-deals .item h4 {
-  font-size: 20px;
-  font-weight: 700;
-  padding-bottom: 25px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ddd;
-}
-
-.amazing-deals .item i {
-  color: #331875;
-  margin-right: 5px;
-}
-
-.amazing-deals .item span.list {
-  font-size: 15px;
-  color: #331875;
-  font-weight: 500;
-}
-
-.amazing-deals .item .content {
-  padding: 30px 0px;
-} */
-
 .amazing-deals .item {
   position: relative;
   overflow: hidden;
   border: 1px solid #ddd;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
 }
 
 .amazing-deals .item .image img {
@@ -2292,6 +2202,9 @@ Deals Page Style
   background-color: #331875;
   padding: 5px 10px;
   border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
