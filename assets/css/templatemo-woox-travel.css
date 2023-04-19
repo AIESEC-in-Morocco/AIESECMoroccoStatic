@@ -960,8 +960,7 @@ Banner Style
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url("../images/headers/3.jpg") no-repeat
-    center center;
+  background: url("../images/headers/3.jpg") no-repeat center center;
   background-size: cover;
   filter: grayscale(20%);
   /* filter: url('#purple-sepia'); */
@@ -1310,12 +1309,12 @@ About Page Style
 }
 .about-main-content {
   margin-top: 70px;
-  background-image: url(../images/Background.jpg);
-  background-attachment: fixed;
+  background-image: url(../images/DISCOVER\ OUR\ CULTURE.jpg);
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 130px 0px 200px 0px;
+  height: 100vh;
 }
 
 .blur-bg-about {
@@ -1339,7 +1338,12 @@ About Page Style
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(37, 16, 91, 0.75); /* change the color and transparency here */
+  background-color: rgba(
+    37,
+    16,
+    91,
+    0.75
+  ); /* change the color and transparency here */
   z-index: 1;
 }
 
@@ -1349,7 +1353,7 @@ About Page Style
   background: url(../images/Background.jpg) no-repeat center center fixed;
   background-size: cover;
   filter: brightness(80%) blur(5px);
-  color: #25105B;
+  color: #25105b;
   position: absolute;
   left: 0;
   top: 0;
@@ -2230,7 +2234,6 @@ Deals Page Style
   margin-bottom: 30px;
 }
 
-
 .amazing-deals .row {
   display: flex;
   flex-wrap: wrap;
@@ -2245,7 +2248,6 @@ Deals Page Style
   flex: 1;
 }
 
-
 .amazing-deals .item .image {
   height: 300px;
   overflow: hidden;
@@ -2256,7 +2258,6 @@ Deals Page Style
   width: 100%;
   object-fit: cover;
 }
-
 
 .amazing-deals ul.page-numbers {
   text-align: center;
@@ -4099,28 +4100,40 @@ body {
 /**Conent of product pages**/
 
 .gta-about {
-  background-image: url("../images/gtaP.png");
+  background-image: url("../images/GTa\ header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 .gta-about .blur-bg {
   background-image: url("../images/gtaP.png") !important;
 }
 .gte-about {
-  background-image: url("../images/gte\\(2\).png");
+  background-image: url("../images/GTe\ header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 .gte-about .blur-bg {
   background-image: url("../images/gte\\(2\).png") !important;
 }
 .gv-about {
-  background-image: url("../images/GVP.png");
+  background-image: url("../images/GV\ header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 .gv-about .blur-bg {
   background-image: url("../images/GVP.png") !important;
 }
 .mxp-about {
-  background-image: url("../images/MXP.png");
+  background-image: url("../images/AIESEC\ member\ header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 .mxp-about .blur-bg {
-  background-image: url("../images/MXP.png") !important;
+  background-image: url("../images/AIESEC\ member\ header.jpg") !important;
 }
 
 /*Drop down in the menu*/
