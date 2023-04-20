@@ -4163,8 +4163,17 @@ body {
   background-size: cover;
   height: 100vh;
 }
-.gta-about .blur-bg {
-  background-image: url("../images/gtaP.png") !important;
+
+@media (max-width: 989px) and (min-width: 700px) {
+  .gta-about {
+    background-image: url("../images/GTa\ header\ tablet.png");
+  }
+}
+
+@media (max-width: 700px) {
+  .gta-about {
+    background-image: url("../images/GTa\ header\ mobile.jpg");
+  }
 }
 .gte-about {
   background-image: url("../images/GTe\ header.jpg");
@@ -4172,26 +4181,17 @@ body {
   background-size: cover;
   height: 100vh;
 }
-.gte-about .blur-bg {
-  background-image: url("../images/gte\\(2\).png") !important;
-}
 .gv-about {
   background-image: url("../images/GV\ header.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
 }
-.gv-about .blur-bg {
-  background-image: url("../images/GVP.png") !important;
-}
 .mxp-about {
   background-image: url("../images/AIESEC\ member\ header.jpg");
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
-}
-.mxp-about .blur-bg {
-  background-image: url("../images/AIESEC\ member\ header.jpg") !important;
 }
 
 /*Drop down in the menu*/
