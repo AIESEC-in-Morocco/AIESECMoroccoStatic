@@ -14,7 +14,7 @@ function okUlyi() {
 
   (window.dataLayer = window.dataLayer || []),
     okUlyi("js", new Date()),
-    okUlyi("config", "G-TRQ8W3PT4C");
+    okUlyi("config", "G-Q4JWC1GJGG");
 })(window, document, "clarity", "script");
 
 (function ($) {
