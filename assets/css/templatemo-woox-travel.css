@@ -1627,7 +1627,7 @@ About Page Style
 
 .more-about {
   margin-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
   /* border-bottom: 1px solid #eee; */
 }
 
