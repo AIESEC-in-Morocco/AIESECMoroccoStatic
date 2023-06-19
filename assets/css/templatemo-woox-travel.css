@@ -121,8 +121,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 figure,
 header,
 nav,
@@ -158,12 +156,12 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul,
+/* ul,
 li {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
 header,
 nav,
@@ -206,7 +204,7 @@ h6 {
   color: #2a2a2a;
   font-weight: 700;
 }
-
+/* 
 ul {
   margin-bottom: 0px;
 }
@@ -215,7 +213,7 @@ p {
   font-size: 15px;
   line-height: 30px;
   color: #52565e;
-}
+} */
 
 img {
   width: 100%;
